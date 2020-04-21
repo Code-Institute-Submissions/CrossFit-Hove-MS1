@@ -2,35 +2,122 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
 
+@font-face {
+    font-family: 'gloss';
+    src:    url('../fonts/Gloss.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'meatbuckets';
+    src: url('../fonts/meatbuckets.ttf') format('truetype');
+    font-weight:normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'darkheart';
+    src: url('../fonts/DarkHeart.otf') format('opentype');
+    font-weight:normal;
+    font-style: normal; 
+}
+@font-face {
+    font-family: 'Run';
+    src: url('../fonts/Run.ttf') format('truetype');
+    font-weight:normal;
+    font-style: normal;
+}
 /*---------------------------------------Heading*/
 
 header {
     margin: 0;
     }
 .heading{
-    background-color: black;
-    height: 80px;
+    height: 70px;
+    width: 100%;
+    
 }
 .header-bar {
-
+    padding: 0;
+    background-color:#000000 ;
+    height:70px;
 }
 
-.logo {
-    font-family: Anton, sans-serif;
-    letter-spacing: 3px;
-    color: white;
-    font-size: 40px;
+.menu-heading-left {
+    display: inline-block;
+    height: 65px;
+    width: 40%;
+    padding-right: 0px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.menu-heading-left ul {
+    display: flex;
+    justify-content: space-between;
+}
+#nav-left {
+    font-family: gloss;
+    letter-spacing: 3px; 
+    color: #fafafa;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
+
+.menu-heading-right {
+    display: inline-block;
+    height: 65px;
+    width: 40%;
+    padding-left: 0px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+#nav-right {
+    font-family: gloss;
+    letter-spacing: 3px; 
+    color: #fafafa;
+    font-size: 20px;
     padding-top: 10px;
     padding-left: 10px;
 }
-
-.calendar-icon {
-    text-align: right;
-    padding-top: 10px;
-    padding-right: 10px;
+.menu-heading-right ul {
+    display: flex;
+    justify-content: space-between;
 }
 
-.calendar-icon a {
-    color: whitesmoke;
-    font-size: 40px;
+
+.logo-header {
+    width: 20%;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.list-inline>li a {
+    font-family: gloss;
+    letter-spacing: 3px;
+    color: #fafafa;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+#logo-header {
+    position: relative;
+    max-height: 80px;
+    max-width: 150px;
+}
+/*---------------------------------------Hero Image*/
+.container-fluid {
+    padding: 0;
+}
+.hero-image-box {
+    display: block;
+    position: relative;
+}
+.hero-image-box img {
+    width:100%;
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: -15px;
+    vertical-align: top;
 }
