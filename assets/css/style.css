@@ -1,6 +1,6 @@
 /*---------------------------------------Fonts*/
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
 
 @font-face {
     font-family: 'gloss';
@@ -55,12 +55,9 @@ header {
     justify-content: space-between;
 }
 #nav-left {
-    font-family: gloss;
-    letter-spacing: 3px; 
-    color: #fafafa;
-    font-size: 20px;
     padding-top: 10px;
     padding-left: 0px;
+    padding-bottom: 15px;
 }
 
 
@@ -74,12 +71,9 @@ header {
     padding-bottom: 5px;
 }
 #nav-right {
-    font-family: gloss;
-    letter-spacing: 3px; 
-    color: #fafafa;
-    font-size: 20px;
     padding-top: 10px;
     padding-left: 10px;
+    padding-bottom: 15px;
 }
 .menu-heading-right ul {
     display: flex;
@@ -100,8 +94,9 @@ header {
 }
 
 .list-inline>li a {
-    font-family: gloss;
-    letter-spacing: 3px;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
     color: #fafafa;
     font-size: 20px;
     padding-top: 30px;
@@ -125,15 +120,67 @@ header {
     padding-bottom: 20px;
     vertical-align: top;
 }
+/*---------------------------------------About us Section*/
+.Aboutus-section {
+    font-family: Roboto,sans-serif;
+    color: #000000;
+    text-align: justify;
+}
+#what-is-heading {
+    font-family: gloss;
+    letter-spacing: 3px;
+    color: #000000;
+    font-size: 5em;
+    text-align: center;
+    padding-top:2.5%;
+}
+#about-subheading {
+    font-family: gloss;
+    letter-spacing: 3px;
+    color: #000000;
+    font-size: 2em;
+    text-align: center;
+    padding-top:10%;
+}
+.aboutus-item p {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*----------------------------------Media Queries*/
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 576px) {}
 
-body {
-    background-color: olive;
-}
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
 .menu-heading-col {
     width: 50%;
     text-align: left;
@@ -159,11 +206,13 @@ body {
     max-height:50px;
     max-width: 35px;
 }
+
+#what-is-heading {
+    font-family: gloss;
+    letter-spacing: 3px;
+    color: #000000;
+    font-size:3em;
 }
-
-
-
-
 
 
 
