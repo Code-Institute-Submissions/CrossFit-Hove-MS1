@@ -93,6 +93,12 @@ header {
     padding-top: 2px;
 }
 
+#logo-header {
+    position: relative;
+    max-height: 80px;
+    max-width: 150px;
+}
+
 .list-inline>li a {
     font-family: gloss;
     letter-spacing: 3px;
@@ -101,11 +107,10 @@ header {
     padding-top: 30px;
     padding-left: 10px;
 }
-#logo-header {
-    position: relative;
-    max-height: 80px;
-    max-width: 150px;
+#calendar {
+    color: #fafafa;
 }
+
 /*---------------------------------------Hero Image*/
 .container-fluid {
     padding: 0;
@@ -118,6 +123,50 @@ header {
     width:100%;
     height: auto;
     padding-bottom: 20px;
-    padding-top: -15px;
     vertical-align: top;
+}
+
+
+/*----------------------------------Media Queries*/
+
+@media screen and (max-width: 992px) {
+
+body {
+    background-color: olive;
+}
+.menu-heading-col {
+    width: 50%;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.logo-header img {
+    width: 50%;
+}
+#logo-header {
+    max-width: 90px;
+    padding-top: 5px;
+
+}
+.menu-heading-calendar {
+    width: 50%;
+    text-align: right;
+    padding-top: 18px;
+    padding-right: 30px;
+    
+}
+.menu-heading-calendar img {
+    max-height:50px;
+    max-width: 35px;
+}
+}
+
+
+
+
+
+
+
+
+
 }
