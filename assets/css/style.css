@@ -26,6 +26,7 @@
     font-weight:normal;
     font-style: normal;
 }
+
 /*---------------------------------------Heading*/
 
 header {
@@ -38,7 +39,7 @@ header {
 }
 .header-bar {
     padding: 0;
-    background-color:#000000 ;
+    background-color:#333333 ;
     height:70px;
 }
 
@@ -119,28 +120,28 @@ header {
 .hero-image-box img {
     width:100%;
     height: auto;
-    padding-bottom: 20px;
+    padding-bottom: 90px;
     vertical-align: top;
 }
 /*---------------------------------------About us Section*/
 .Aboutus-section {
     font-family: Roboto,sans-serif;
-    color: #000000;
+    color: #1b1c1b;
     text-align: justify;
 }
 .section-header {
     font-family: gloss;
     letter-spacing: 3px;
-    color: #000000;
+    color: #1b1c1b;
     font-size: 5em;
     text-align: center;
     padding-top:2.5%;
-    padding-bottom:50px;
+    padding-bottom:80px;
 }
 #about-workouts, #about-movement, #about-community {
     font-family: gloss;
     letter-spacing: 3px;
-    color: #000000;
+    color: #1b1c1b;
     font-size: 2em;
     text-align: center;
     padding-top:10%;
@@ -152,6 +153,7 @@ header {
 }
 
 /*---------------------------------------Gallery Section*/
+
 .row-gallery {
    padding-top: 60px;
    padding-bottom:50px;
@@ -172,46 +174,89 @@ header {
 /*---------------------------------------Prices Section*/
 
 .pricing-items {
+    padding-top: 50px;
     width: 100%;
-     display: flex;
+    display: flex;
     justify-content: space-evenly;
+    padding-right:10px;
 }
 
 .subheader-box {
     height: 80px;
-    background-color: #000000;
+    background-color: #333333;
     
-    
-
-
 }
 .pricing-box h3 {
     font-family: gloss, Roboto;
     color: #fafafa;
-    background-color: #000000;
+    background-color: #333333;
     margin: 0;
     text-align: center;
     height: 100%;
     padding-top:30px;
+    
 }
 
 .pricing-box {
     font-family: Roboto, sans-serif;
-    width: 300px;
-    height: 350px;
-    border:#000000;
+    font-weight: lighter;
+    font-size: 16pt;
+    letter-spacing: 0.75px;
+    width: 20%;
+    height: 90%;
+    border:#1b1c1b;
     border-width: 2px;
     border-style: solid;
     padding: 0;
-    justify-content: center;
+    
     
 }
 
+.pricing-box ul {
+    height: 60%;
+    line-height: 45px;
+    text-align:center;
+    padding-top: 5%;
+    padding-left:0;
+    margin-bottom: 0;
+}
 
+.pricing-box ul li {
+    padding-left: 7px;
+}
 
+.pricing-box ul li::marker {
+    content: "\2713";
+    color: #000000;
+   
+}
 
+.pricing-box button {
+    background-color: #000000;
+    color: #fafafa;
 
-
+}
+.button-box {
+    display:flex;
+    justify-content: center;
+    padding-bottom:15px;
+}
+.jumbotron-price {
+    display: inline-block;
+    font-family: Roboto, sans-serif;
+    font-size: 10pt;
+    margin: 5%;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #cccccc
+}
+.price-notes {
+    width: 100%;
+    padding:0;
+    margin:0;
+}
 
 
 
