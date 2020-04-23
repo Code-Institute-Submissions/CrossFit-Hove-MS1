@@ -135,6 +135,7 @@ header {
     font-size: 5em;
     text-align: center;
     padding-top:2.5%;
+    padding-bottom:50px;
 }
 #about-workouts, #about-movement, #about-community {
     font-family: gloss;
@@ -170,6 +171,41 @@ header {
 
 /*---------------------------------------Prices Section*/
 
+.pricing-items {
+    width: 100%;
+     display: flex;
+    justify-content: space-evenly;
+}
+
+.subheader-box {
+    height: 80px;
+    background-color: #000000;
+    
+    
+
+
+}
+.pricing-box h3 {
+    font-family: gloss, Roboto;
+    color: #fafafa;
+    background-color: #000000;
+    margin: 0;
+    text-align: center;
+    height: 100%;
+    padding-top:30px;
+}
+
+.pricing-box {
+    font-family: Roboto, sans-serif;
+    width: 300px;
+    height: 350px;
+    border:#000000;
+    border-width: 2px;
+    border-style: solid;
+    padding: 0;
+    justify-content: center;
+    
+}
 
 
 
@@ -230,8 +266,5 @@ header {
 #gallery-section img {
     max-width: 90%;
     padding-bottom: 30px;
-
-
-
-
+}
 }
