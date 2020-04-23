@@ -89,7 +89,7 @@ header {
 
 #logo-header {
     position: relative;
-    max-height: 80px;
+    max-height: 60px;
     max-width: 150px;
 }
 
@@ -113,6 +113,7 @@ header {
 .hero-image-box {
     display: block;
     position: relative;
+    padding: none;
 }
 .hero-image-box img {
     width:100%;
@@ -134,7 +135,7 @@ header {
     text-align: center;
     padding-top:2.5%;
 }
-#about-subheading {
+#about-workouts, #about-movement, #about-community {
     font-family: gloss;
     letter-spacing: 3px;
     color: #000000;
@@ -148,11 +149,27 @@ header {
     padding-left: 30px;
 }
 
+/*---------------------------------------Gallery Section*/
 
+.row-gallery {
+    
+    padding-top: 60px;
+}
 
+.gallery-image-col {
+    padding: 0;
+}
 
+.gallery-image-col ul{
+    max-width: 100%;
+    list-style: none;
+    justify-content: center;
+}
+#gallery-section img {
+    max-width: 95%;
+    padding-bottom: 65px;
 
-
+}
 
 
 
@@ -184,7 +201,7 @@ header {
 .menu-heading-col {
     width: 50%;
     text-align: left;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-left: 30px;
 }
 .logo-header img {
