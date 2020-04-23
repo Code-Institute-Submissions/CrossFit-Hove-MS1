@@ -55,9 +55,9 @@ header {
     justify-content: space-between;
 }
 #nav-left {
-    padding-top: 10px;
-    padding-left: 0px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 20px;
 }
 
 
@@ -71,8 +71,9 @@ header {
     padding-bottom: 5px;
 }
 #nav-right {
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 10px;
+    padding-right: 10px;
     padding-bottom: 15px;
 }
 .menu-heading-right ul {
@@ -127,7 +128,7 @@ header {
     color: #000000;
     text-align: justify;
 }
-#what-is-heading {
+.section-header {
     font-family: gloss;
     letter-spacing: 3px;
     color: #000000;
@@ -150,16 +151,13 @@ header {
 }
 
 /*---------------------------------------Gallery Section*/
-
 .row-gallery {
-    
-    padding-top: 60px;
+   padding-top: 60px;
+   padding-bottom:50px;
 }
-
 .gallery-image-col {
     padding: 0;
 }
-
 .gallery-image-col ul{
     max-width: 100%;
     list-style: none;
@@ -167,11 +165,10 @@ header {
 }
 #gallery-section img {
     max-width: 95%;
-    padding-bottom: 65px;
-
+    padding-bottom: 60px;
 }
 
-
+/*---------------------------------------Prices Section*/
 
 
 
@@ -224,13 +221,15 @@ header {
     max-width: 35px;
 }
 
-#what-is-heading {
+.section-header {
     font-family: gloss;
     letter-spacing: 3px;
     color: #000000;
-    font-size:3em;
+    font-size:2.5em;
 }
-
+#gallery-section img {
+    max-width: 90%;
+    padding-bottom: 30px;
 
 
 
