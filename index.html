@@ -223,31 +223,132 @@
         </div>
       </div>
     </section>
-    <!--------------------------------------------------------------Contact Us and Map-->
+    <!---------------------------------------------------Contact Us and Map-->
     <section class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-md-5">
-          <form class="contactus-form">
-            <div class="form-group">
-              <label for="formGroupExampleInput">Name</label>
-              <input type="text" class="form-control" id="formNameInput" />
-              <label for="formGroupExampleInput">Email</label>
-              <input type="email" class="form-control" id="formemailInput" />
-              <label for="formGroupExampleInput">Message</label>
-              <input type="text" class="form-control" id="formmessageInput" />
-              <button id="contact-button" type="submit" class="btn btn-dark">
-                Send!
-              </button>
+      <div class="col-xs-6 col-md-5 form-column">
+        <form>
+          <div class="form-group row">
+            <label for="inputName3" class="col-sm-2 col-form-label"
+              >Name</label
+            >
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputName3" />
             </div>
-          </form>
-        </div>
-        <div class="col-xs-12 col-md-5" id="map">
-          <iframe
-            width="100%"
-            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJTR0kE2mFdUgRJvzMIu_qT10&key=AIzaSyA9A4ohdXVwFH0rqldGysb6Pea2Of9F9ik"
-          ></iframe>
-        </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label"
+              >Email</label
+            >
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputMessage3" class="col-sm-2 col-form-label"
+              >Message</label
+            >
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputmessage3" />
+            </div>
+          </div>
+        </form>
       </div>
+      <div class="row">
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 40.674, lng: -73.945},
+          zoom: 12,
+          styles: [
+            {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+            {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+            {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+            {
+              featureType: 'administrative.locality',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'geometry',
+              stylers: [{color: '#263c3f'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#6b9a76'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry',
+              stylers: [{color: '#38414e'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#212a37'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#9ca5b3'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry',
+              stylers: [{color: '#746855'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#1f2835'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#f3d19c'}]
+            },
+            {
+              featureType: 'transit',
+              elementType: 'geometry',
+              stylers: [{color: '#2f3948'}]
+            },
+            {
+              featureType: 'transit.station',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'geometry',
+              stylers: [{color: '#17263c'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#515c6d'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.stroke',
+              stylers: [{color: '#17263c'}]
+            }
+          ]
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9A4ohdXVwFH0rqldGysb6Pea2Of9F9ik&callback=initMap"
+    async defer></script>
+      </div>
+
+
+
     </section>
     <footer>Social Feeds</footer>
 

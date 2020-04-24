@@ -254,7 +254,20 @@ header {
     content: "\2713";
     color: #1b1c1b;
 }
-                  
+
+.jumbotron {
+    font-size: 10px;
+    background-color: #e6e6e6;
+    margin:3em;
+    padding: 0.5em;
+}
+.display-4 {
+    font-size: 10pt;
+    font-weight: 400;
+}
+.jumbotron p {
+    font-size: 8pt;
+}
 /*---------------------------------------Contact Us & Map Section*/
 .contactus-box {
         max-width: 80%;
@@ -269,36 +282,41 @@ header {
         border-color: #1b1c1b;
         border-width: 2px;
 }
-.contactus-form {
-    padding-top:25px;
-    vertical-align: center;
+.form-column {
+    margin-left: 8em;
+    
 }
-#formNameInput {
-    opacity: 70%;
-}
-#formemailInput {
-    opacity: 70%;
+.form-column form {
+    background-image: url(../images/gym11.jpg);
+    background-size: cover;
+    height:400px;
+    padding: 30px;
+    padding-top:40px;
+    border: 1px solid;
+    border-color: rgba(0,0,0,.125);
+    max-width: 625px;
+    }
+
+.form-column input {
+    opacity: 80%;
 }
 
-#formmessageInput {
-    height: 150px;
-    opacity: 70%;
-}
-#contact-button {
-    margin-top: 30px;
+
+#inputmessage3 {
+    height: 200px;
 }
 
-
- #map {
-        width: 40%;
-        height: 600px;
-        border-style: solid;
-        border-color: #1b1c1b;
-        border-width: 2px;
-        margin-left: 110px;
-        padding-left: 0;
-        padding-right: 0;
- }
+ /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
 
 
 
@@ -343,22 +361,24 @@ header {
 #gallery-section img {
     max-width: 90%;
     padding-bottom: 30px;
-    padding-left: 15px;
+    padding-left: 1.5em;
 }
 .card {
     margin-left: 20px;
 }
 
-.notes-banner {
-    width: 100%;
-    padding-left: 5%;
+.jumbotron {
+    padding: 1em;
+}
 }
 .contactus-form {
     max-height: 350px;
     margin-left: 10%;
 }
-
-
-
-
+.form-column {
+    margin: 0;
+    
+}
+.form-column form {
+    height: 500px;
 }
