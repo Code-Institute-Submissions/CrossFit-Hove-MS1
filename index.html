@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>CrossFit Hove</title>
@@ -19,7 +19,7 @@
   <body>
     <header>
       <div class="row no-gutters header-bar">
-        <div class="col-md-5 hidden-xs hidden-sm menu-heading-left">
+        <div class="col-md-5 d-none d-sm-none d-md-block menu-heading-left">
           <ul id="nav-left" class="list-inline">
             <li class="navitem"><a href="#">Home</a></li>
             <li class="navitem"><a href="">About Us</a></li>
@@ -34,8 +34,8 @@
               alt="barbell"
           /></a>
         </div>
-        <div class="col-md-5 hidden-xs hidden-sm menu-heading-right">
-          <ul id="nav-right" class="list-inline d-none">
+        <div class="col-md-5 d-none d-sm-none d-md-block menu-heading-right">
+          <ul id="nav-right" class="list-inline">
             <li class="list-inline-item menuitem"><a href="#">Pricing</a></li>
             <li class="list-inline-item menuitem">
               <a href="#">Contact Us</a>
@@ -50,7 +50,7 @@
           </ul>
         </div>
         <div
-          class="col-xs-6 hidden-md hidden-lg menu-heading-calendar logo-header"
+          class="col-xs-6 d-block d-sm-block d-md-none menu-heading-calendar logo-header"
         >
           <a
             href="https://goteamup.com/p/41640-crossfit-hove/#!week"
@@ -138,151 +138,121 @@
       </div>
     </section>
     <!--------------------------------------------------------------Pricing-->
-    <section class="container-fluid Pricing-section">
-      <div class="row">
-        <div class="col-sm-12">
-          <h1 class="section-header">Membership Costs</h1>
-        </div>
+    <section class="Pricing-section">
+      <div class="row container-fluid">
+        <h1 class="section-header">Membership Costs</h1>
       </div>
-      <div class="row pricing-row">
-        <div class="pricing-box col-xs-12 col-md-4">
-          <div class="subheader-box">
-            <h3 class="section-subheader">Foundation Course</h3>
-          </div>
-
-          <ul>
-            <li>5 x 1-to-1 sessions</li>
-            <li>Inital fitness assessment</li>
-            <li>Fundamental skills</li>
-            <li><strong>£125</strong></li>
-          </ul>
-          <div class="button-box">
-            <a href="#" role="button"
-              ><button type="button" class="btn btn-dark">
-                Join Waitlist
-              </button></a
-            >
-          </div>
-        </div>
-        <div class="pricing-box col-xs-12 col-md-4">
-          <div class="subheader-box">
-            <h3 class="section-subheader">Limited Membership</h3>
-          </div>
-          <ul>
-            <li>8 sessions per month</li>
-            <li>No fixed contract</li>
-            <li>Online Booking System</li>
-            <li><strong>£70</strong></li>
-          </ul>
-          <div class="button-box">
-            <a
-              href="https://goteamup.com/p/41640-crossfit-hove/memberships/"
-              role="button"
-              ><button type="button" class="btn btn-dark">Buy</button></a
-            >
-          </div>
-        </div>
-        <div class="pricing-box col-xs-12 col-md-4">
-          <div class="subheader-box">
-            <h3 class="section-subheader">Unlimited Membership</h3>
-          </div>
-          <ul>
-            <li>Unlimited sessions</li>
-            <li>No fixed contract</li>
-            <li>Online Booking System</li>
-            <li><strong>£90</strong></li>
-          </ul>
-          <div class="button-box">
-            <a
-              href="https://goteamup.com/p/41640-crossfit-hove/memberships/"
-              role="button"
-              ><button type="button" class="btn btn-dark">Buy</button></a
-            >
-          </div>
-        </div>
-        <div class="pricing-box col-xs-12 col-md-4">
-          <div class="subheader-box">
-            <h3 class="section-subheader">15 Block Pass</h3>
-          </div>
-          <ul>
-            <li>15 sessions</li>
-            <li>3 month validity</li>
-            <li>Online Booking System</li>
-            <li><strong>£125</strong></li>
-          </ul>
-          <div class="button-box">
-            <a
-              href="https://goteamup.com/p/41640-crossfit-hove/memberships/"
-              role="button"
-              ><button type="button" class="btn btn-dark">Buy</button></a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 notes-banner">
-          <div class="jumbotron jumbotron-fluid jumbotron-price">
-            <div class="container price-notes">
-              <h4>Notes</h4>
-              <p class="lead">
-                <i
-                  >Drop in sessions are welcome for £10 per session, however we
-                  require a minimum of 3 months experience of CrossFit at an
-                  affiliate before booking into sessions. Please use the contact
-                  us below to get in touch. annually in August we ask our
-                  members to contribute £25 for improvements to the gym or for
-                  new kit and repair. This is payable on either the 1st or 15th
-                  of the month depending on when the member joined.</i
-                >
-              </p>
+      <div class="container-fluid">
+        <div class="card-deck">
+          <div class="card">
+            <h5 class="card-title">Foundation Course</h5>
+            <div class="card-body">
+              <ul class="card-text">
+                <li>5 x 1-to-1 sessions</li>
+                <li>Inital fitness assessment</li>
+                <li>Fundamental skills</li>
+                <li><strong>£125</strong></li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-dark">Join Waitlist!</button>
             </div>
           </div>
+          <div class="card">
+            <h5 class="card-title">Limited Membership</h5>
+            <div class="card-body">
+              <ul class="card-text">
+                <li>8 sessions per month</li>
+                <li>No fixed contract</li>
+                <li>Online Booking System</li>
+                <li><strong>£70</strong></li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-dark">Buy!</button>
+            </div>
+          </div>
+          <div class="card">
+            <h5 class="card-title">Unlimited Membership</h5>
+            <div class="card-body">
+              <ul class="card-text">
+                <li>Unlimited sessions</li>
+                <li>No fixed contract</li>
+                <li>Online Booking System</li>
+                <li><strong>£90</strong></li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-dark">Buy!</button>
+            </div>
+          </div>
+          <div class="card">
+            <h5 class="card-title">15 Sesion Pass</h5>
+            <div class="card-body">
+              <ul class="card-text">
+                <li>15 sessions</li>
+                <li>3 month validity</li>
+                <li>Online Booking System</li>
+                <li><strong>£125</strong></li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://goteamup.com/p/41640-crossfit-hove/memberships/"
+                role="button"
+                target="_blank"
+              >
+                <button type="button" class="btn btn-dark">Buy!</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Memebrship Notes</h1>
+          <p class="lead">
+            Drop in sessions are welcome for £10 per session, however we require
+            a minimum of 3 months experience of CrossFit at an affiliate before
+            booking into sessions. Please use the contact us below to get in
+            touch. annually in August we ask our members to contribute £25 for
+            improvements to the gym or for new kit and repair. This is payable
+            on either the 1st or 15th of the month depending on when the member
+            joined.
+          </p>
         </div>
       </div>
     </section>
     <!--------------------------------------------------------------Contact Us and Map-->
-    <section class="container-fluid contact-section">
-      <div class="row contact-row">
-        <div class="col-xs-12 col-md-5 contactus-box">
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-md-5">
           <form class="contactus-form">
             <div class="form-group">
               <label for="formGroupExampleInput">Name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="formNameInput"
-              />
+              <input type="text" class="form-control" id="formNameInput" />
               <label for="formGroupExampleInput">Email</label>
-              <input
-                type="email"
-                class="form-control"
-                id="formemailInput"
-              />
+              <input type="email" class="form-control" id="formemailInput" />
               <label for="formGroupExampleInput">Message</label>
-              <input
-                type="text"
-                class="form-control"
-                id="formmessageInput"
-              />
-              <button id="contact-button" type="submit" class="btn btn-dark">Send!</button>
+              <input type="text" class="form-control" id="formmessageInput" />
+              <button id="contact-button" type="submit" class="btn btn-dark">
+                Send!
+              </button>
             </div>
           </form>
         </div>
-        <div class="hidden-xs col-md-5" id="map">
+        <div class="col-xs-12 col-md-5" id="map">
           <iframe
-            width="670"
-            height="595"
-            frameborder="0"
-            style="border: 0;"
+            width="100%"
             src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJTR0kE2mFdUgRJvzMIu_qT10&key=AIzaSyA9A4ohdXVwFH0rqldGysb6Pea2Of9F9ik"
-            allowfullscreen
           ></iframe>
         </div>
       </div>
     </section>
     <footer>Social Feeds</footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
   </body>
 </html>
