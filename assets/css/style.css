@@ -263,23 +263,48 @@ header {
     margin:0;
 }
 /*---------------------------------------Contact Us & Map Section*/
-.contactus-form {
-        height: 700px;
+.contactus-box {
+        max-width: 80%;
+        height: 400px;
         background-image: url(../images/gym11.jpg);
         background-repeat:no-repeat;
         background-size:cover;
-        background-position: center;
-        margin-left: 5%;
+        background-position: top;
+        margin-left: 100px;
+        margin-right: 0;
         border-style: solid;
         border-color: #1b1c1b;
         border-width: 2px;
-
 }
+.contactus-form {
+    padding-top:25px;
+    vertical-align: center;
+}
+#formNameInput {
+    opacity: 70%;
+}
+#formemailInput {
+    opacity: 70%;
+}
+
+#formmessageInput {
+    height: 150px;
+    opacity: 70%;
+}
+#contact-button {
+    margin-top: 30px;
+}
+
+
  #map {
-        height: 100%;
+        width: 40%;
+        height: 600px;
         border-style: solid;
         border-color: #1b1c1b;
         border-width: 2px;
+        margin-left: 110px;
+        padding-left: 0;
+        padding-right: 0;
  }
 
 
@@ -287,13 +312,6 @@ header {
 
 
 /*----------------------------------Media Queries*/
-
-@media screen and (max-width: 576px) {}
-
-
-
-
-
 
 
 @media screen and (max-width: 992px) {
@@ -335,9 +353,12 @@ header {
 }
 .notes-banner {
     width: 100%;
-    padding-left: 10%;
+    padding-left: 5%;
 }
-
+.contactus-form {
+    max-height: 350px;
+    margin-left: 10%;
+}
 
 
 
