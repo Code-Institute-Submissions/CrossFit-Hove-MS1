@@ -172,13 +172,16 @@ header {
 }
 
 /*---------------------------------------Prices Section*/
+.pricing-row {
+    width: 100%;
+    display: inline-block;
+
+}
 
 .pricing-items {
     padding-top: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    padding-right:10px;
+    float: none;
+    padding-right: 0;
 }
 
 .subheader-box {
@@ -204,12 +207,12 @@ header {
     letter-spacing: 0.75px;
     width: 20%;
     height: 90%;
+    display: inline-block;
     border:#1b1c1b;
     border-width: 2px;
     border-style: solid;
     padding: 0;
-    
-    
+    margin-left: 4.5%;
 }
 
 .pricing-box ul {
@@ -227,15 +230,14 @@ header {
 
 .pricing-box ul li::marker {
     content: "\2713";
-    color: #000000;
-   
+    color: #1b1c1b;
 }
 
 .pricing-box button {
-    background-color: #000000;
+    background-color: #1b1c1b;
     color: #fafafa;
-
 }
+
 .button-box {
     display:flex;
     justify-content: center;
@@ -244,7 +246,6 @@ header {
 .jumbotron-price {
     display: inline-block;
     font-family: Roboto, sans-serif;
-    font-size: 10pt;
     margin: 5%;
     padding-right: 0;
     padding-left: 0;
@@ -252,14 +253,34 @@ header {
     padding-bottom: 0;
     background-color: #cccccc
 }
+.jumbotron-price p {
+    font-size: 10pt;    
+}  
+
 .price-notes {
     width: 100%;
     padding:0;
     margin:0;
 }
+/*---------------------------------------Contact Us & Map Section*/
+.contactus-form {
+        height: 700px;
+        background-image: url(../images/gym11.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position: center;
+        margin-left: 5%;
+        border-style: solid;
+        border-color: #1b1c1b;
+        border-width: 2px;
 
-
-
+}
+ #map {
+        height: 100%;
+        border-style: solid;
+        border-color: #1b1c1b;
+        border-width: 2px;
+ }
 
 
 
@@ -312,4 +333,13 @@ header {
     max-width: 90%;
     padding-bottom: 30px;
 }
+.notes-banner {
+    width: 100%;
+    padding-left: 10%;
+}
+
+
+
+
+
 }
