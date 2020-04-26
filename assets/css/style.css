@@ -4,26 +4,8 @@
 
 @font-face {
     font-family: 'gloss';
-    src:    url('../fonts/Gloss.otf') format('opentype');
+    src:    url('../fonts/gloss.ttf') format('truetype');
     font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'meatbuckets';
-    src: url('../fonts/meatbuckets.ttf') format('truetype');
-    font-weight:normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'darkheart';
-    src: url('../fonts/DarkHeart.otf') format('opentype');
-    font-weight:normal;
-    font-style: normal; 
-}
-@font-face {
-    font-family: 'Run';
-    src: url('../fonts/Run.ttf') format('truetype');
-    font-weight:normal;
     font-style: normal;
 }
 
@@ -255,12 +237,10 @@ header {
 
 .card-body ul li {
     padding-left: 7px;
+    list-style: none;
 }
 
-.card-body ul li::marker {
-    content: "\2713";
-    color: #1b1c1b;
-}
+
 
 .jumbotron {
     font-size: 10px;
@@ -317,6 +297,11 @@ header {
     text-align: left;
     line-height: 50px;
     padding-left: 20px;
+    
+}
+.social-links { 
+    margin-top:45px; 
+
 }
 .social-links i {
     font-size: 50px;
@@ -408,9 +393,14 @@ header {
 #map {
     margin: 1em;
 }
+
+
 .social-feeds { 
     margin:1em;
-    height: 150px;
+    height: 130px;
+}
+.social-links { 
+    margin-top:5px; 
 }
 .social-links i {
     font-size: 25px;
@@ -423,3 +413,4 @@ header {
 #socialimage {
     max-width: 80%;
     margin-left: 0;
+}
