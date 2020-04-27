@@ -72,13 +72,14 @@
     <section class="container-fluid">
       <div class="row">
         <div class="col-12 hero-image-box" id="home">
-          <img src="assets/images/hero-image.jpg" alt="blackwhite barbell" />
         </div>
       </div>
     </section>
     <!---------------------------------------------What is Crossfit Section-->
     <section class="container-fluid Aboutus-section">
+    <div class="row header-row no-gutters">
       <h1 class="section-header">What is CrossFit ?</h1>
+    </div>
       <div class="row aboutus-heading">
         <div class="col-xs-12 col-md-4 aboutus-item">
           <h2 id="about-workouts">The Workouts</h2>
@@ -137,34 +138,36 @@
 
     <!--Using Bootstrap for column layout, 1 of which hides in mobile view-->
     <section id="gallery-section">
-      <div class="row container-fluid row-gallery">
+      <div class="row container-fluid row-gallery no-gutters">
+        <div class="row header-row">
         <h1 class="section-header">Our Box</h1>
+        </div>
         <div class="col-xs-12 col-sm-4 gallery-image-col">
           <ul>
-            <li class="galleryitem"><img src="assets/images/gym1.jpg" /></li>
-            <li class="galleryitem"><img src="assets/images/gym2.jpg" /></li>
-            <li class="galleryitem"><img src="assets/images/gym3.jpg" /></li>
+            <li class="galleryitem"><img src="assets/images/gym1.jpg" alt="people working out"/></li>
+            <li class="galleryitem"><img src="assets/images/gym2.jpg" alt="people working out"/></li>
+            <li class="galleryitem"><img src="assets/images/gym3.jpg" alt="people working out"/></li>
           </ul>
         </div>
         <div class="col-xs-12 col-sm-4 gallery-image-col">
           <ul>
-            <li class="galleryitem"><img src="assets/images/gym4.jpg" /></li>
-            <li class="galleryitem"><img src="assets/images/gym5.jpg" /></li>
-            <li class="galleryitem"><img src="assets/images/gym6.jpg" /></li>
+            <li class="galleryitem"><img src="assets/images/gym4.jpg" alt="people working out"/></li>
+            <li class="galleryitem"><img src="assets/images/gym5.jpg" alt="people working out"/></li>
+            <li class="galleryitem"><img src="assets/images/gym6.jpg" alt="people working out"/></li>
           </ul>
         </div>
         <div class="hidden-xs col-sm-4 gallery-image-col">
           <ul>
-            <li class="galleryitem"><img src="assets/images/gym7.jpg" /></li>
-            <li class="galleryitem"><img src="assets/images/gym8.jpg" /></li>
-            <li class="galleryitem"><img src="assets/images/gym9.jpg" /></li>
+            <li class="galleryitem"><img src="assets/images/gym7.jpg" alt="people working out"/></li>
+            <li class="galleryitem"><img src="assets/images/gym8.jpg" alt="people working out"/></li>
+            <li class="galleryitem"><img src="assets/images/gym9.jpg" alt="people working out"/></li>
           </ul>
         </div>
       </div>
     </section>
     <!--------------------------------------------------------------Pricing-->
     <section class="Pricing-section" id="pricing">
-      <div class="row container-fluid">
+      <div class="row header-row no-gutters">
         <h1 class="section-header">Membership Costs</h1>
       </div>
       <div class="container-fluid">
@@ -224,7 +227,7 @@
             </div>
             <div class="card-footer">
               <a
-                href="https://goteamup.com/p/41640-crossfit-hove/memberships/"
+                href="#"
                 role="button"
                 target="_blank"
               >
@@ -234,24 +237,11 @@
           </div>
         </div>
       </div>
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Memebrship Notes</h1>
-          <p class="lead">
-            Drop in sessions are welcome for £10 per session, however we require
-            a minimum of 3 months experience of CrossFit at an affiliate before
-            booking into sessions. Please use the contact us below to get in
-            touch. annually in August we ask our members to contribute £25 for
-            improvements to the gym or for new kit and repair. This is payable
-            on either the 1st or 15th of the month depending on when the member
-            joined.
-          </p>
-        </div>
-      </div>
+      
     </section>
     <!---------------------------------------------------Contact Us and Map-->
-    <footer id="Contact-Map" class="row">
-      <div class="col-xs-6 col-md-5 form-column">
+    <footer id="Contact-Map" class="row no-gutters">
+      <div class="col-xs-6 col-md-4 form-column">
         <form>
           <div class="form-group row">
             <label for="inputName3" class="col-sm-2 col-form-label"
@@ -284,7 +274,7 @@
           </div>
         </form>
       </div>
-      <div class="col-xs-12 col-md-5">
+      <div class="col-xs-12 col-md-4">
         <div id="map">
           <iframe
             width="100%"

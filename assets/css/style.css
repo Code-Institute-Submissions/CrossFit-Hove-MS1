@@ -8,7 +8,12 @@
     font-weight: normal;
     font-style: normal;
 }
-
+/*---------------------------------------General formatting*/
+.header-row {
+    width: 100%;
+    text-align: center;
+    padding-top:50px;
+}
 /*---------------------------------------Heading*/
 
 header {
@@ -21,7 +26,7 @@ header {
 }
 .header-bar {
     padding: 0;
-    background-color:#333333 ;
+    background-color:#000 ;
     height:70px;
 }
 
@@ -91,19 +96,14 @@ header {
 }
 
 /*---------------------------------------Hero Image*/
-.container-fluid {
-    padding: 0;
-}
 .hero-image-box {
-    display: block;
-    position: relative;
-    padding: none;
+    background-image: url(../images/hero-image.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1000px;
 }
-.hero-image-box img {
-    width:100%;
-    height: auto;
-    padding-bottom: 90px;
-    vertical-align: top;
+
+
 }
 /*---------------------------------------About us Section*/
 .Aboutus-section {
@@ -121,6 +121,7 @@ header {
     padding-top:2.5%;
     padding-bottom:80px;
 }
+
 #about-workouts, #about-movement, #about-community {
     font-family: gloss;
     letter-spacing: 3px;
@@ -138,16 +139,21 @@ header {
 .youtubeplayer {
     text-align: center;
     padding-top:100px;
-    margin:1.5em;
-    opacity: 50%;
+    padding-bottom: 100px;
+    margin:0, 1.5em;
 }
 
 /*---------------------------------------Gallery Section*/
 
 .row-gallery {
-   padding-top: 60px;
-   padding-bottom:50px;
+   padding-top: 50px;
+   background-color: #000;
+   justify-content: center;
 }
+#gallery-section h1{
+        color: #fff;
+}
+
 .gallery-image-col {
     padding: 0;
 }
@@ -210,7 +216,6 @@ header {
     text-align: center;
     height: 100%;
     padding-top:30px;
-    
 }
 
 .pricing-box {
@@ -240,26 +245,15 @@ header {
     list-style: none;
 }
 
-
-
-.jumbotron {
-    font-size: 10px;
-    background-color: #e6e6e6;
-    margin:3em;
-    padding: 0.5em;
-    margin-top: 70px;
-    margin-bottom: 80px;
-}
-.display-4 {
-    font-size: 10pt;
-    font-weight: 400;
-}
-.jumbotron p {
-    font-size: 8pt;
-}
 /*---------------------------------------Contact Us & Map Section*/
+#Contact-Map {
+    width:100%;
+    padding-top: 80px;
+    display: inline-flex;
+    justify-content: center;
+}
 .form-column {
-    margin-left: 8.25em;
+    margin-left: 0;
     
 }
 .form-column form {
@@ -304,16 +298,16 @@ header {
 
 }
 .social-links i {
-    font-size: 50px;
+    font-size: 45px;
     color:#1b1c1b;
     padding-top: 30px;
-    padding-left:10px;
+    padding-left:0;
     
 }
 
 #socialimage {
     max-width: 100%;
-    margin-left: 2em;
+    margin-top: 20px;
 }
 
 /*----------------------------------Media Queries*/
@@ -345,38 +339,42 @@ header {
     max-width: 35px;
     align-self: right;
 }
-
+.hero-image-box {
+    background-image: url(../images/hero-image-mob.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+}
 .section-header {
     font-family: gloss;
     letter-spacing: 3px;
     color: #000000;
     font-size:2em;
     padding-bottom: 30px;
-    margin-left: 2.5%;
 }
 #about-movement, #about-workouts, #about-community {
     font-size: 1.5em;
 }
 .youtubeplayer {
-    max-width: 90%;
+    max-width: 100%;
 }
-
-
 #gallery-section img {
     max-width: 90%;
     padding-bottom: 30px;
-    padding-left: 1.5em;
+    
 }
 .card-deck {
-    margin:1em 5em 1em 5em;
+    display: inline-grid;
+    width: 100%;
+    margin: 0;
+    justify-items: center;
 }
-.card-deck .card {
+.card {
+    width:286px;
     margin-bottom:40px;
+    align-self: auto;
 }
 
-.jumbotron {
-    padding: 1em;
-}
 
 .contactus-form {
     max-height: 425px;
@@ -413,4 +411,5 @@ header {
 #socialimage {
     max-width: 80%;
     margin-left: 0;
+    margin-top: 2px;
 }
