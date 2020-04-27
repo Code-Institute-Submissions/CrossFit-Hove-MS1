@@ -11,19 +11,31 @@ I've added nav functionality to link the booking site for existing members and p
 
 ## UX
  
-The user experience was designed to predominantly attract new members to the gym but provide some functionality to existing members. It is a one page website so the user only has to scroll down to be lead through the content. The layout is logical and answers questions as you scroll down. This starts with what classes the gym provides, with a motivational video, followed by a gallery of members. The gallery showcases a broad range of photos of different sexes and ages to be all inclusive and show the membership is diverse. 
+The user experience was designed to predominantly attract new members to the gym but provide some functionality to existing members. It is a one page website so the user only has to scroll down to be lead through the content. The layout is logical and answers questions as you scroll down. This starts with what classes the gym provides, with a motivational video, followed by a gallery of members. The gallery showcases a broad range of photos of different sexes and ages to be all inclusive and show the membership is diverse. This project achieves it's goal by giving all the information and ability for new members to sign up. It also provides content (social and booking links) for existing members. 
 
-The pricing comes next with unique features set out for each class of membership. These clear pricing cards set out features that should define what propective new clients get for their money.
+The landing hero image starts the user on the UX journey and shows the site is professional. Next the site has 3 pieces and info on the gym, it's classes and their scope. These are kept to a single paragraph to keep the user engaged. 
+
+A motivstional vidoe is embedded to draw people in followed by a gallery of members working out. 
+
+The pricing comes next with unique features set out for each class of membership. These clear pricing cards set out features that should define what propective new clients get for their money. 
 
 The footer section added 3 pieces of functionality, the 'Contact Us' box for all general enquiries, google map for locating the gym and the social feeds taking users to external social networks. 
 
-I feel the one page approach keeps the user engaged rather than a multiple pages where you could easily lose interest. 
+I feel the one page approach keeps the user engaged rather than a multiple pages where you could easily get lost and lose interest. 
+
+Researching competitor websites showed that this one page UX was predominantly used for this business type.
+
+
+### Wireframe
+
+[wireframe]: https://github.com/StevePilcher/CrossFit-Hove-MS1/blob/master/assets/files/WireFrame%20MS1.pdf
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-###Typical User Stories
+### Typical User Stories
 
-- 
+- Prospective New Member 
+
 
 
 
