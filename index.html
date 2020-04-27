@@ -18,17 +18,17 @@
   </head>
 
   <body>
-  <!---------------------------------------------Header and Navbar-->
+    <!--Header and Navbar-->
 
-<!-- Using bootstrap for repsponsive columns which are hidden in mobile view-->
+    <!-- Using bootstrap for repsponsive columns which are hidden in mobile view-->
 
     <header>
       <div class="row no-gutters header-bar">
         <div class="col-md-5 d-none d-sm-none d-md-block menu-heading-left">
           <ul id="nav-left" class="list-inline">
-            <li class="navitem"><a href="#home">Home</a></li>
             <li class="navitem"><a href="#about-workouts">About Us</a></li>
             <li class="navitem"><a href="#gallery-section">Gallery</a></li>
+            <li class="navitem"><a href="#pricing">Pricing</a></li>
           </ul>
         </div>
         <div class="col-xs-6 col-md-2 menu-heading-col logo-header">
@@ -41,15 +41,9 @@
         </div>
         <div class="col-md-5 d-none d-sm-none d-md-block menu-heading-right">
           <ul id="nav-right" class="list-inline">
-            <li class="list-inline-item menuitem"><a href="#pricing">Pricing</a></li>
-            <li class="list-inline-item menuitem">
-              <a href="#Contact-Map">Contact Us</a>
-            </li>
-            <li class="list-inline-item menuitem">
-              <a
-                href="https://goteamup.com/p/41640-crossfit-hove/#!week"
-                target="_blank"
-                >Booking</a
+            <li class="list-inline-item menuitem"><a href="#socialicons">Social</a></li>
+            <li class="list-inline-item menuitem"><a href="#Contact-Map">Contact Us</a></li>
+            <li class="list-inline-item menuitem"><a href="#" target="_blank">Booking</a
               >
             </li>
           </ul>
@@ -68,21 +62,20 @@
         </div>
       </div>
     </header>
-    <!-----------------------------------------------------------Hero Image-->
-    <section class="container-fluid">
+    <!--Hero Image-->
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-12 hero-image-box" id="home">
-        </div>
+        <div class="col-12 hero-image-box" id="home"></div>
       </div>
-    </section>
-    <!---------------------------------------------What is Crossfit Section-->
-    <section class="container-fluid Aboutus-section">
-    <div class="row header-row no-gutters">
-      <h1 class="section-header">What is CrossFit ?</h1>
     </div>
+    <!--What is Crossfit Section-->
+    <section class="container-fluid Aboutus-section">
+      <div class="row header-row no-gutters">
+        <h2 class="section-header">What is CrossFit ?</h2>
+      </div>
       <div class="row aboutus-heading">
         <div class="col-xs-12 col-md-4 aboutus-item">
-          <h2 id="about-workouts">The Workouts</h2>
+          <h3 id="about-workouts">The Workouts</h3>
           <p id="workouts-info">
             CrossFit workout of the day (or WOD) are a mixture of aerobic
             exercises, calisthenics and Olympic weightlifting. An hour-long
@@ -94,7 +87,7 @@
         </div>
 
         <div class="col-xs-12 col-md-4 aboutus-item">
-          <h2 id="about-movement">Functional Movement</h2>
+          <h3 id="about-movement">Functional Movement</h3>
           <p id="movement-info">
             The movements that we use are functional (replicated in life,
             requiring no special machinery or equipment). We dont look to train
@@ -105,7 +98,7 @@
           </p>
         </div>
         <div class="col-xs-12 col-md-4 aboutus-item">
-          <h2 id="about-community">The Box</h2>
+          <h3 id="about-community">The Box</h3>
           <p id="community-info">
             Your support network. Our classes are small and intimate where our
             CrossFit Certified Coaches not only know your name, but also your
@@ -116,62 +109,78 @@
           </p>
         </div>
       </div>
-    </section>
-    <!--------------------------------------------------Promo Video Section-->
-    <section class="container-fluid video-promo">
-      <div class="row">
-        <div class="col-12 youtubeplayer">
-    <!--Embed script taken from YouTube-->
-          <iframe
-            width="90%"
-            height="500"
-            src="https://www.youtube.com/embed/tkuTOYr8g5s"
-            theme="light"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+      <!--Promo Video Section-->
+      <div class="container-fluid video-promo">
+        <div class="row">
+          <div class="col-12 youtubeplayer">
+            <!--Embed script taken from YouTube-->
+            <iframe
+              width="1440"
+              height="500"
+              src="https://www.youtube.com/embed/tkuTOYr8g5s"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
     </section>
-    <!--------------------------------------------------------------Gallery-->
+    <!--Gallery-->
 
     <!--Using Bootstrap for column layout, 1 of which hides in mobile view-->
     <section id="gallery-section">
       <div class="row container-fluid row-gallery no-gutters">
         <div class="row header-row">
-        <h1 class="section-header">Our Box</h1>
+          <h2 class="section-header">Our Box</h2>
         </div>
         <div class="col-xs-12 col-sm-4 gallery-image-col">
           <ul>
-            <li class="galleryitem"><img src="assets/images/gym1.jpg" alt="people working out"/></li>
-            <li class="galleryitem"><img src="assets/images/gym2.jpg" alt="people working out"/></li>
-            <li class="galleryitem"><img src="assets/images/gym3.jpg" alt="people working out"/></li>
+            <li class="galleryitem">
+              <img src="assets/images/gym1.jpg" alt="people working out" />
+            </li>
+            <li class="galleryitem">
+              <img src="assets/images/gym2.jpg" alt="people working out" />
+            </li>
+            <li class="galleryitem">
+              <img src="assets/images/gym3.jpg" alt="people working out" />
+            </li>
           </ul>
         </div>
         <div class="col-xs-12 col-sm-4 gallery-image-col">
           <ul>
-            <li class="galleryitem"><img src="assets/images/gym4.jpg" alt="people working out"/></li>
-            <li class="galleryitem"><img src="assets/images/gym5.jpg" alt="people working out"/></li>
-            <li class="galleryitem"><img src="assets/images/gym6.jpg" alt="people working out"/></li>
+            <li class="galleryitem">
+              <img src="assets/images/gym4.jpg" alt="people working out" />
+            </li>
+            <li class="galleryitem">
+              <img src="assets/images/gym5.jpg" alt="people working out" />
+            </li>
+            <li class="galleryitem">
+              <img src="assets/images/gym6.jpg" alt="people working out" />
+            </li>
           </ul>
         </div>
         <div class="hidden-xs col-sm-4 gallery-image-col">
           <ul>
-            <li class="galleryitem"><img src="assets/images/gym7.jpg" alt="people working out"/></li>
-            <li class="galleryitem"><img src="assets/images/gym8.jpg" alt="people working out"/></li>
-            <li class="galleryitem"><img src="assets/images/gym9.jpg" alt="people working out"/></li>
+            <li class="galleryitem">
+              <img src="assets/images/gym7.jpg" alt="people working out" />
+            </li>
+            <li class="galleryitem">
+              <img src="assets/images/gym8.jpg" alt="people working out" />
+            </li>
+            <li class="galleryitem">
+              <img src="assets/images/gym9.jpg" alt="people working out" />
+            </li>
           </ul>
         </div>
       </div>
     </section>
-    <!--------------------------------------------------------------Pricing-->
+    <!--Pricing-->
     <section class="Pricing-section" id="pricing">
       <div class="row header-row no-gutters">
-        <h1 class="section-header">Membership Costs</h1>
+        <h2 class="section-header">Membership Costs</h2>
       </div>
       <div class="container-fluid">
-      <!--Using bootstrap cards to layout the pricing boxes-->
+        <!--Using bootstrap cards to layout the pricing boxes-->
         <div class="card-deck">
           <div class="card">
             <h5 class="card-title">Foundation Course</h5>
@@ -226,21 +235,15 @@
               </ul>
             </div>
             <div class="card-footer">
-              <a
-                href="#"
-                role="button"
-                target="_blank"
-              >
-                <button type="button" class="btn btn-dark">Buy!</button></a
-              >
+              <button type="button" class="btn btn-dark">Buy!</button>
             </div>
           </div>
         </div>
       </div>
-      
     </section>
-    <!---------------------------------------------------Contact Us and Map-->
+    <!--Contact Us and Map-->
     <footer id="Contact-Map" class="row no-gutters">
+        <h2 class="section-header">Contact Us</h2>
       <div class="col-xs-6 col-md-4 form-column">
         <form>
           <div class="form-group row">
@@ -267,7 +270,7 @@
               <input
                 type="text"
                 class="form-control"
-                id="inputmessage3"
+                id="inputMessage3"
               /><br />
             </div>
             <button type="button" class="btn btn-dark">Submit</button>
@@ -277,8 +280,8 @@
       <div class="col-xs-12 col-md-4">
         <div id="map">
           <iframe
-            width="100%"
-            height="225px"
+            width="475"
+            height="225"
             src="https://www.google.com/maps/embed/v1/place?q=crossfit%20hove&key=AIzaSyA9A4ohdXVwFH0rqldGysb6Pea2Of9F9ik"
           ></iframe>
         </div>
@@ -306,13 +309,19 @@
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a target="_blank" href="https://www.instagram.com/crossfithove/">
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/crossfithove/"
+                  >
                     <i class="fab fa-instagram" aria-hidden="true"></i>
                     <span class="sr-only">Instagram</span>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a target="_blank" href="https://www.youtube.com/channel/UCesD8HXMrj14xhELPUMCnEg">
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/channel/UCesD8HXMrj14xhELPUMCnEg"
+                  >
                     <i class="fab fa-youtube-square" aria-hidden="true"></i>
                     <span class="sr-only">YouTube</span>
                   </a>
@@ -331,8 +340,6 @@
       </div>
     </footer>
     <br />
-
-    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
