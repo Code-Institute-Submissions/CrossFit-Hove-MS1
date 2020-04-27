@@ -1,29 +1,51 @@
 # CrossFit Hove 
 
-This project was created for the Milestone 1 project for the Code Institute's Full Stack Dev course. 
+This project was created for my Milestone 1 project for the Code Institute's Full Stack Dev course. 
 
-I choose to make this site as for the local CrossFit gym I use. The gym's existing site lacks content for existing members and potential new clients. The site I have designed encorporates the overview of the gym, it's ethos, motivational videos and a gallery of members to entice new clients.
+I chose to make this site for the local CrossFit gym I use. The gym's existing site lacks content for existing members and potential new clients. The site I have designed is one page and encorporates the overview of the gym, it's ethos, motivational videos, a gallery of members, contact, location and social feeds
 
-With functionality added to link the booking site for exsiting members and purchasing memberships for new clients, means there is usability for both groups.  
+I've added nav functionality to link the booking site for existing members and purchasing memberships for new clients. This gives both sides of the target audience usability. 
+
+
+
 
 ## UX
  
-The user experience was designed to predominantly attract new members to the gym but provide some functionality to existing members. It is a one page website so the user only has to scroll down to be lead through the content. The layout is logical and answers questions as you take the content in scrolling down, starting with what classes the gym provides, with a motivational video, followed by a gallery of members. The gallery showcases a broad range of photos of different sexes and ages to be all inclusive and show the membership is diverse. 
+The user experience was designed to predominantly attract new members to the gym but provide some functionality to existing members. It is a one page website so the user only has to scroll down to be lead through the content. The layout is logical and answers questions as you scroll down. This starts with what classes the gym provides, with a motivational video, followed by a gallery of members. The gallery showcases a broad range of photos of different sexes and ages to be all inclusive and show the membership is diverse. This project achieves it's goal by giving all the information and ability for new members to sign up. It also provides content (social and booking links) for existing members. 
 
-The pricing comes next with unique features set out for each class of membership and small print underneath. These clear pricing cards set out features that should easily entice new clients. 
+The landing hero image starts the user on the UX journey and shows the site is professional. Next the site has 3 pieces and info on the gym, it's classes and their scope. These are kept to a single paragraph to keep the user engaged. 
+
+A motivstional vidoe is embedded to draw people in followed by a gallery of members working out. 
+
+The pricing comes next with unique features set out for each class of membership. These clear pricing cards set out features that should define what propective new clients get for their money. 
 
 The footer section added 3 pieces of functionality, the 'Contact Us' box for all general enquiries, google map for locating the gym and the social feeds taking users to external social networks. 
 
-I feel the one page approach keeps the user engaged rather than a multiple page approach. 
+I feel the one page approach keeps the user engaged rather than a multiple pages where you could easily get lost and lose interest. 
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Researching competitor websites showed that this one page UX was predominantly used for this business type.
 
 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+### Typical User Stories
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+**Prospective Members**
+
+- As a prospective new member you want to find out about the gym, it's classes and pricing. You can see all information as you scroll down the page or can use the nav links in the header to jump to the relevant section of interest.
+
+- As a prospective new member you want to ask a general question not answered by the sites content. Jump to the Contact form and type your message without creating an email for you personal account. 
+
+**Existing Members**
+
+- As an existing member I want to book a class. I find the booking link easily from the Nav bar and book in to the class
+
+- As an existing member I want to follow the gyms social feeds. All social feeds are found naturally in the footer of the site.
+
+
+### Wireframe
+
+[wireframe] (https://github.com/StevePilcher/CrossFit-Hove-MS1/blob/master/assets/files/WireFrame%20MS1.pdf)
+
 
 ## Features
 
