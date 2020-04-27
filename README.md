@@ -7,8 +7,6 @@ I chose to make this site for the local CrossFit gym I use. The gym's existing s
 I've added nav functionality to link the booking site for existing members and purchasing memberships for new clients. This gives both sides of the target audience usability. 
 
 
-
-
 ## UX
  
 The user experience was designed to predominantly attract new members to the gym but provide some functionality to existing members. It is a one page website so the user only has to scroll down to be lead through the content. The layout is logical and answers questions as you scroll down. This starts with what classes the gym provides, with a motivational video, followed by a gallery of members. The gallery showcases a broad range of photos of different sexes and ages to be all inclusive and show the membership is diverse. This project achieves it's goal by giving all the information and ability for new members to sign up. It also provides content (social and booking links) for existing members. 
@@ -44,7 +42,7 @@ Researching competitor websites showed that this one page UX was predominantly u
 
 ### Wireframe
 
-[wireframe] (https://github.com/StevePilcher/CrossFit-Hove-MS1/blob/master/assets/files/WireFrame%20MS1.pdf)
+[wireframe](https://github.com/StevePilcher/CrossFit-Hove-MS1/blob/master/assets/files/WireFrame%20MS1.pdf)
 
 
 ## Features
@@ -68,6 +66,42 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 
 ## Testing
+
+### Web Browser Testing
+
+The following Web Browsers were tested and no errors found;
+
+- Mozilla FireFox 75.0 (64-bit)
+- Google Chrome Version 81.0.4044.122 (Official Build) (64-bit)
+
+### Mobile Device 
+
+The following devices were tested and no errors found;
+
+- Samsung Galaxy S10 Plus
+- iPhone 
+- Google Pixel 2 & 2 XL
+- iPhone 6/7/8 Plus
+
+## Validators 
+
+### W3C Markup Validator 
+- No errors or warnings were found on index.html
+
+### W3C CSS Validator 
+- No errors or warnings were found on style.css
+- bootstrap warnings were flagged but can be disregarded. 
+
+
+##Issues
+
+- Internet Explorer not aligning pricing card-deck correctly 
+- Internet 
+
+
+
+
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
