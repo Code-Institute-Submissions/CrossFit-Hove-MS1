@@ -26,23 +26,26 @@ I feel the one page approach keeps the user engaged rather than a multiple pages
 Researching competitor websites showed that this one page UX was predominantly used for this business type.
 
 
-### Wireframe
-
-[wireframe]: https://github.com/StevePilcher/CrossFit-Hove-MS1/blob/master/assets/files/WireFrame%20MS1.pdf
-
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Typical User Stories
 
-- Prospective New Member 
+**Prospective Members**
+
+- As a prospective new member you want to find out about the gym, it's classes and pricing. You can see all information as you scroll down the page or can use the nav links in the header to jump to the relevant section of interest.
+
+- As a prospective new member you want to ask a general question not answered by the sites content. Jump to the Contact form and type your message without creating an email for you personal account. 
+
+**Existing Members**
+
+- As an existing member I want to book a class. I find the booking link easily from the Nav bar and book in to the class
+
+- As an existing member I want to follow the gyms social feeds. All social feeds are found naturally in the footer of the site.
 
 
+### Wireframe
 
+[wireframe] (https://github.com/StevePilcher/CrossFit-Hove-MS1/blob/master/assets/files/WireFrame%20MS1.pdf)
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
 
