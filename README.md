@@ -1,4 +1,4 @@
-# CrossFit Hove 
+# CrossFit Hove Gym Static Website
 
 This project was created for my Milestone 1 project for the Code Institute's Full Stack Dev course. 
 
@@ -13,7 +13,7 @@ The user experience was designed to predominantly attract new members to the gym
 
 The landing hero image starts the user on the UX journey and shows the site is professional. Next the site has 3 pieces and info on the gym, it's classes and their scope. These are kept to a single paragraph to keep the user engaged. 
 
-A motivstional vidoe is embedded to draw people in followed by a gallery of members working out. 
+A motivational vidoe is embedded to draw people in followed by a gallery of members working out. 
 
 The pricing comes next with unique features set out for each class of membership. These clear pricing cards set out features that should define what propective new clients get for their money. 
 
@@ -37,15 +37,29 @@ Researching competitor websites showed that this one page UX was predominantly u
 
 - As an existing member I want to book a class. I find the booking link easily from the Nav bar and book in to the class
 
-- As an existing member I want to follow the gyms social feeds. All social feeds are found naturally in the footer of the site.
+- As an existing member I want to follow the gyms social feeds. I can link to them from the Nav bar
 
 
 ### Wireframe
 
-[wireframe](https://github.com/StevePilcher/CrossFit-Hove-MS1/blob/master/assets/files/WireFrame%20MS1.pdf)
+The linked file to the wireframe mockup of the website.
+
+[Wireframe PDF](https://github.com/StevePilcher/CrossFit-Hove-MS1/blob/master/assets/files/WireFrame%20MS1.pdf)
 
 
 ## Features
+
+# Nav Bar
+
+- The nav bar loacted at the top of the page is well spaced and contrasts against the black background making it easy to read. Each link jumps the user to the relevant section making all information easy to find. 
+
+# Hero Image 
+
+- The Hero image welcomes the user with a great visual of a woman lifting weights. This will landing will give the first impression 
+
+# About Us 
+
+- The about us section gives 3 paragraphs of information on the 
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
