@@ -148,16 +148,16 @@ No automated testing was done.
 
 ## Deployment
 
-This project was deployed using GitHub pages can found [here] (https://stevepilcher.github.io/CrossFit-Hove-MS1/). This version was off of the master branch, there are no differences between the deployed and deployment versions. 
+This project was deployed using GitHub pages can found [here](https://stevepilcher.github.io/CrossFit-Hove-MS1/). This version was off of the master branch, there are no differences between the deployed and deployment versions. 
 
 ## Credits
 - Fonts taken from [Google Fonts](https://fonts.google.com) and [DaFont](https://www.dafont.com/gloss-and-bloom.font).
 - Map from [Google](https://www.google.co.uk/maps/)
-- Icons from [FontAwesome] (https://fontawesome.com/)
+- Icons from [FontAwesome](https://fontawesome.com/)
 
 ### Content
 - Video taken from [Youtube](https://www.youtube.com)
-- About us content taken from [Crossfit](https://www.crossfit.com/) & [Wikipedia] (https://en.wikipedia.org/wiki/CrossFit) webites.
+- About us content taken from [Crossfit](https://www.crossfit.com/) & [Wikipedia](https://en.wikipedia.org/wiki/CrossFit) webites.
 ### Media
 - Hero Images for both full and mobile by Hipcravo on [Unsplash](https://unsplash.com) 
 - Gallery photos used with permission from CrossFit Hove 
