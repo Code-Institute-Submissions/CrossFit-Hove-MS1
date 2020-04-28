@@ -21,7 +21,7 @@
     <!--Header and Navbar-->
     <header>
       <div class="row no-gutters header-bar">
-        <div class="col-md-5 d-none d-sm-none d-md-block menu-heading-left">
+        <div class="col-lg-5 d-none d-sm-none d-md-none d-lg-block menu-heading-left">
           <ul id="nav-left" class="list-inline">
             <li class="navitem"><a href="#about-workouts">About Us</a></li>
             <li class="navitem"><a href="#gallery-section">Gallery</a></li>
@@ -36,28 +36,37 @@
               alt="barbell"
           /></a>
         </div>
-        <div class="col-md-5 d-none d-sm-none d-md-block menu-heading-right">
+        <div class="col-lg-5 d-none d-sm-none d-md-none d-lg-block menu-heading-right">
           <ul id="nav-right" class="list-inline">
-            <li class="list-inline-item menuitem"><a href="#socialicons">Social</a></li>
-            <li class="list-inline-item menuitem"><a href="#Contact-Map">Contact Us</a></li>
-            <li class="list-inline-item menuitem"><a href="https://goteamup.com/p/41640-crossfit-hove/" target="_blank">Booking</a
+            <li class="list-inline-item menuitem">
+              <a href="#socialicons">Social</a>
+            </li>
+            <li class="list-inline-item menuitem">
+              <a href="#Contact-Map">Contact Us</a>
+            </li>
+            <li class="list-inline-item menuitem">
+              <a
+                href="https://goteamup.com/p/41640-crossfit-hove/"
+                target="_blank"
+                >Booking</a
               >
             </li>
           </ul>
         </div>
         <div
-          class="col-xs-6 d-block d-sm-block d-md-none menu-heading-calendar logo-header"
-        >
-          <a
-            href="https://goteamup.com/p/41640-crossfit-hove/#!week"
-            target="_blank"
-            ><img
-              src="assets/icons/calendar.png"
-              id="timetable"
-              alt="blackwhite barbell"
-          /></a>
-        </div>
+            class="col-xs-5 d-block d-lg none menu-heading-calendar logo-header"
+          >
+            <a
+              href="https://goteamup.com/p/41640-crossfit-hove/#!week"
+              target="_blank"
+              ><img
+                src="assets/icons/calendar.png"
+                id="timetable"
+                alt="blackwhite barbell"
+            /></a>
+          </div>
       </div>
+
     </header>
     <!--Hero Image-->
     <div class="container-fluid">
@@ -107,24 +116,18 @@
         </div>
       </div>
       <!--Promo Video Section-->
-      <div class="container-fluid video-promo">
-        <div class="row">
-          <div class="col-12 youtubeplayer">
-            <!--Embed script taken from YouTube-->
-            <iframe
-              width="1440"
-              height="500"
-              src="https://www.youtube.com/embed/tkuTOYr8g5s"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
+      <div class="container iframe-container">
+        <!--Embed script taken from YouTube-->
+        <iframe
+          width="100%"
+          height="100%"
+          src="https://www.youtube.com/embed/tkuTOYr8g5s"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
     </section>
     <!--Gallery-->
-
-    <!--Using Bootstrap for column layout, 1 of which hides in mobile view-->
     <section id="gallery-section">
       <div class="row container-fluid row-gallery no-gutters">
         <div class="row header-row">
@@ -176,7 +179,7 @@
       <div class="row header-row no-gutters">
         <h2 class="section-header">Membership Costs</h2>
       </div>
-      <div class="container-fluid">
+      <div class="container-fluid Card-Container">
         <!--Using bootstrap cards to layout the pricing boxes-->
         <div class="card-deck">
           <div class="card">
@@ -239,16 +242,21 @@
       </div>
     </section>
     <!--Contact Us and Map-->
-    <footer id="Contact-Map" class="row no-gutters">
-        <h2 class="section-header">Contact Us</h2>
-      <div class="col-xs-6 col-md-4 form-column">
+    <section id="Contact-Map" class="row no-gutters">
+      <h2 class="section-header">Contact Us</h2>
+      <div class="col-xs-6 col-md-6 form-column">
         <form>
           <div class="form-group row">
             <label for="inputName3" class="col-sm-2 col-form-label"
               ><strong>Name</strong></label
             >
             <div class="col-sm-10">
-              <input type="text" class="form-control" id="inputName3" required/>
+              <input
+                type="text"
+                class="form-control"
+                id="inputName3"
+                required
+              />
             </div>
           </div>
           <div class="form-group row">
@@ -256,7 +264,12 @@
               ><strong>Email</strong></label
             >
             <div class="col-sm-10">
-              <input type="email" class="form-control" id="inputEmail3" required />
+              <input
+                type="email"
+                class="form-control"
+                id="inputEmail3"
+                required
+              />
             </div>
           </div>
           <div class="form-group row">
@@ -267,77 +280,63 @@
               <input
                 type="text"
                 class="form-control"
-                id="inputMessage3" required
+                id="inputMessage3"
+                required
               /><br />
             </div>
             <button type="submit" class="btn btn-dark">Submit</button>
           </div>
         </form>
       </div>
-      <div class="col-xs-12 col-md-4">
+      <div class="col-xs-12 col-md-6 map-column">
         <div id="map">
           <iframe
-            width="475"
-            height="225"
+            width="100%"
+            height="100%"
             src="https://www.google.com/maps/embed/v1/place?q=crossfit%20hove&key=AIzaSyA9A4ohdXVwFH0rqldGysb6Pea2Of9F9ik"
           ></iframe>
         </div>
-        <!--Social Feed Links-->
-        <div class="social-feeds">
-          <h5 class="social-heading">Social</h5>
-          <div class="row">
-            <div class="col-sm-4 col-md-8" id="socialicons">
-              <ul class="list-inline social-links">
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://www.facebook.com">
-                    <i class="fab fa-facebook-square" aria-hidden="true"></i>
-                    <span class="sr-only">Facebook</span>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://www.twitter.com">
-                    <i class="fab fa-twitter-square" aria-hidden="true"></i>
-                    <span class="sr-only">Twitter</span>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://www.linkedin.com">
-                    <i class="fab fa-linkedin" aria-hidden="true"></i>
-                    <span class="sr-only">LinkedIn</span>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a
-                    target="_blank"
-                    href="https://www.instagram.com"
-                  >
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                    <span class="sr-only">Instagram</span>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a
-                    target="_blank"
-                    href="https://www.youtube.com"
-                  >
-                    <i class="fab fa-youtube-square" aria-hidden="true"></i>
-                    <span class="sr-only">YouTube</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-xs-4 col-3">
-              <img
-                src="assets/images/Smiling-cup.png"
-                id="socialimage"
-                alt="happy smiling cup"
-              />
-            </div>
-          </div>
+      </div>
+    </section>
+    <!--Social Feed Links-->
+    <footer>
+      <div class="row no-gutters social-feeds">
+        <div class="col-12" id="socialicons">
+          <ul class="list-inline social-links">
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.facebook.com">
+                <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.twitter.com">
+                <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.linkedin.com">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                <span class="sr-only">LinkedIn</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.instagram.com">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.youtube.com">
+                <i class="fab fa-youtube-square" aria-hidden="true"></i>
+                <span class="sr-only">YouTube</span>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
-    <br />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>

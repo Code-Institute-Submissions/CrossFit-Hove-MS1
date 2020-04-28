@@ -107,6 +107,7 @@ header {
     font-family: Roboto, sans-serif;
     color: #1b1c1b;
     text-align: justify;
+    margin-bottom: 50px;
 }
 .section-header {
     font-family: gloss;
@@ -133,10 +134,21 @@ header {
     padding-left: 30px;
 }
 /*---------------------------------------Video Promo Section*/
-.youtubeplayer {
-    text-align: center;
-    padding-top:100px;
-    padding-bottom: 100px;
+
+
+.iframe-container {
+  padding-top: 56.25%;
+  position: relative;
+  margin-top:50px;
+}
+ 
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
 }
 
 /*---------------------------------------Gallery Section*/
@@ -144,6 +156,7 @@ header {
 .row-gallery {
    background-color: #000;
    justify-content: center;
+   margin-top: 80px;
 }
 #gallery-section h2{
         color: #fff;
@@ -163,6 +176,10 @@ header {
 }
 
 /*---------------------------------------Prices Section*/
+.Card-Container {
+    padding: 0;
+}
+
 .card-deck {
     justify-content: space-evenly;
     margin-left: 15px;
@@ -251,71 +268,71 @@ header {
 }
 #Contact-Map h2 {
     color: #fff;
-}
 
-.form-column {
-    margin-left: 0;
-    
 }
 .form-column form {
     background-image: url(../images/gym11.jpg);
     background-size: cover;
     height:425px;
-    padding: 30px;
-    padding-top:40px;
-    border: 1px solid;
-    border-color: rgba(0,0,0,.125);
-    max-width: 625px;
-    }
-
+    margin-right:10px;
+    margin-left: 10px;
+}
 .form-column input {
     opacity: 80%;
 }
-
 #inputMessage3 {
     height: 200px;
+} 
+.map-column {
+    overflow: hidden;
+  position: relative;
+  max-height: 425px;
 }
 
-#map {
-    margin-left: 5em;
+.map-column iframe {
+  border: 0;
+   height: 425px;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+   padding-right: 10px;
+   padding-left: 10px;
+}
+
+
+
+/* --------------------------------------Footer */
+
+footer {
+    background-color: #000;
+    text-align: center;
 }
 
 .social-feeds { 
-    background-color: #f2f2f2;
-    margin-left:5em;
-    height: 195px;
-    z-index: 1;
+    height: 150px;
 
 }
-.social-heading {
-    font-family: gloss;
-    color: #1b1c1b;
-    text-align: left;
-    line-height: 50px;
-    padding-left: 20px;
-    
-}
+
 .social-links { 
-    margin-top:45px; 
+    margin-top:45px;
 
+}
+#socialicons {
+    width: 100%;
+    padding: 0;
 }
 .social-links i {
-    font-size: 45px;
-    color:#1b1c1b;
+    letter-spacing: 10px;
+    font-size: 55px;
     padding-top: 30px;
-    padding-left:0;
-    
+    margin: 0;
 }
-
-#socialimage {
-    max-width: 100%;
-    margin-top: 20px;
-}
-
 /*----------------------------------Media Queries*/
 
 
 @media screen and (max-width: 768px) {
+
 .menu-heading-col {
     width: 40%;
     text-align: left;
@@ -372,7 +389,7 @@ header {
     
 }
 .card-deck {
-    display: inline-grid;
+    display: grid;
     width: 100%;
     margin: 0;
     justify-items: center;
@@ -400,23 +417,23 @@ header {
     margin: 1em;
 }
 #map iframe {
-    width:380px;
+    width:100%;
 }
 
 .social-feeds { 
     margin:1em;
     height: 130px;
 }
-.social-links { 
-    margin-top:5px; 
-}
+
+
 .social-links i {
+    letter-spacing: 10px;
     font-size: 25px;
     padding-top: 30px;
     margin: 0;
 }
 #socialicons {
-    max-width: 75%;
+    width: 100%;
 }
 #socialimage {
     max-width: 80%;
