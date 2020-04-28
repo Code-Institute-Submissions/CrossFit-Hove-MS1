@@ -2,7 +2,7 @@
 
 This project was created for my Milestone 1 project for the Code Institute's Full Stack Dev course. 
 
-I chose to make this site for the local CrossFit gym I use. The gym's existing site lacks content for existing members and potential new clients. The site I have designed is one page and encorporates the overview of the gym, it's ethos, motivational videos, a gallery of members, contact, location and social feeds
+I chose to make this site for the local CrossFit gym I use. The gym's existing site lacks content for existing members and potential new clients. The site I have designed is one page and encorporates the overview of the gym, it's ethos, motivational videos, a gallery of members, contact, location and social feeds.
 
 I've added nav functionality to link the booking site for existing members and purchasing memberships for new clients. This gives both sides of the target audience usability. 
 
