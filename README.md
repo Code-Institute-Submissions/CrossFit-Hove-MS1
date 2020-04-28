@@ -50,25 +50,36 @@ The linked file to the wireframe mockup of the website.
 ## Features
 
 ### Existing Features
-|1.Nav Bar - The nav bar loacted at the top of the page is well spaced and contrasts against the black background making it easy to read. Each link clicked by the user jumps them to the relevant section. 
-|2.Hero Image - The Hero image welcomes the user with a great visual of a woman lifting weights. This will landing will give the first impression 
-|3.About CrossFit - The about us section gives 3 paragraphs of information on the what the gym is and its class structure. I've kept the text to a minimum as not to put off any people browsing with and large blocks of content.  
-|4.Embedded Video - The embedded video from YouTube of the Crossfit Games athletes with motivational music. I've used this video as a sales pitch to elite fitness. Something the CrossFit brand aims for. Video is embedded so the user stays on the site.
-|5.Gallery - The gallery section provides a good selection of photos with gym members working out. This showcases that the gym is popular and has a diverse membership.
-|6.Pricing - The pricing cards are set out clearly and are easy to read. The potential member get the info of each type without have search across the site. Linked 'Buy!' buttons would allow the user to be redirected to by a membership. 
-|7.Contact Us - Simple contact form allows the user to send a general message the the gym owner by filling in the 3 required boxes and pressing submit.
-|8.Map - The embedded Google map allows the user to locate the gym by clicking on it or if they recognise the area can see where it is.
-|9.Social - The social media accounts the gym has are linked here, the user can easily identify the social platform by the logo and click to be redirected.
+1. Nav Bar - The nav bar loacted at the top of the page is well spaced and contrasts against the black background making it easy to read. Each link clicked by the user jumps them to the relevant section. 
+
+2. Hero Image - The Hero image welcomes the user with a great visual of a woman lifting weights. This will landing will give the first impression.
+
+3. About CrossFit - The about us section gives 3 paragraphs of information on the what the gym is and its class structure. I've kept the text to a minimum as not to put off any people browsing with and large blocks of content.
+
+4. Embedded Video - The embedded video from YouTube of the Crossfit Games athletes with motivational music. I've used this video as a sales pitch to elite fitness. Something the CrossFit brand aims for. Video is embedded so the user stays on the site.
+
+5. Gallery - The gallery section provides a good selection of photos with gym members working out. This showcases that the gym is popular and has a diverse membership.
+
+6. Pricing - The pricing cards are set out clearly and are easy to read. The potential member get the info of each type without have search across the site. Linked 'Buy!' buttons would allow the user to be redirected to by a membership.
+
+7. Contact Us - Simple contact form allows the user to send a general message the the gym owner by filling in the 3 required boxes and pressing submit.
+
+8. Map - The embedded Google map allows the user to locate the gym by clicking on it or if they recognise the area can see where it is.
+
+9. Social - The social media accounts the gym has are linked here, the user can easily identify the social platform by the logo and click to be redirected.
 
 ### Features Left to Implement
+
 - Replacing the gallery with an Instagram feed allowing the content to be up to date. | This would require more understanding of Javascript.
 - Embedded booking system would give more functionality to members. | This would require more understanding of Javascript.
 
-
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used
+The following technologies were used;
 
+- HTML5 
+- CSS3
+- Bootstrap (with integrated Javascript)
 
 ## Testing
 
@@ -163,4 +174,3 @@ This project was deployed using GitHub pages can found [here] (https://stevepilc
 - I received inspiration for this project from [pintrest](https://www.pinterest.co.uk/pilchy1983/developer-ideas/). 
 - Code debugging help from my mentor Adegbenga Adeye
 - Youtube tutorial on parallax image effect from [iEatWebsites](https://www.youtube.com/watch?v=d34GsFz-HkY)
--    
