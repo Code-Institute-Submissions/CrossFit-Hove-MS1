@@ -10,7 +10,7 @@ The user experience was designed to predominantly attract new members to the gym
 
 The landing hero image starts the user on the UX journey and shows the site is professional. Next the site has 3 pieces and info on the gym, it's classes and their scope. These are kept to a single paragraph to keep the user engaged. 
 
-A motivational vidoe is embedded to draw people in followed by a gallery of members working out. 
+A motivational video is embedded to draw people in followed by a gallery of members working out. 
 
 The pricing comes next with unique features set out for each class of membership. These clear pricing cards set out features that should define what propective new clients get for their money. 
 
