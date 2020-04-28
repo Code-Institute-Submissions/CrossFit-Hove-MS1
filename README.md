@@ -28,13 +28,13 @@ Researching competitor websites showed that this one page UX was predominantly u
 
 - As a prospective new member you want to find out about the gym, it's classes and pricing. You can see all information as you scroll down the page or can use the nav links in the header to jump to the relevant section of interest.
 
-- As a prospective new member you want to ask a general question not answered by the sites content. Jump to the Contact form and type your message without creating an email for you personal account. 
+- As a prospective new member you want to ask a general question not answered by the sites content. Jump to the Contact form and type your message without creating an email from your personal account. 
 
 **Existing Members**
 
-- As an existing member I want to book a class. I find the booking link easily from the Nav bar and book in to the class
+- As an existing member I want to book a class. I find the booking link easily from the Nav bar and book in to the class.
 
-- As an existing member I want to follow the gyms social feeds. I can link to them from the Nav bar
+- As an existing member I want to follow the gyms social feeds. I can link to them from the Nav bar and follow the feeds I wish.
 
 
 ### Wireframe
@@ -49,19 +49,19 @@ The linked file to the wireframe mockup of the website.
 ### Existing Features
 1. Nav Bar - The nav bar loacted at the top of the page is well spaced and contrasts against the black background making it easy to read. Each link clicked by the user jumps them to the relevant section. 
 
-2. Hero Image - The Hero image welcomes the user with a great visual of a woman lifting weights. This will landing will give the first impression.
+2. Hero Image - The Hero image welcomes the user with a great visual of a woman lifting weights. This landing will give a great the first impression to new users on the site.
 
 3. About CrossFit - The about us section gives 3 paragraphs of information on the what the gym is and its class structure. I've kept the text to a minimum as not to put off any people browsing with and large blocks of content.
 
-4. Embedded Video - The embedded video from YouTube of the Crossfit Games athletes with motivational music. I've used this video as a sales pitch to elite fitness. Something the CrossFit brand aims for. Video is embedded so the user stays on the site.
+4. Embedded Video - The embedded video from YouTube of the Crossfit Games athletes with motivational music. I've used this video as a sales pitch for elite fitness. Something the CrossFit brand aims for. Video is embedded so the user stays on the site.
 
 5. Gallery - The gallery section provides a good selection of photos with gym members working out. This showcases that the gym is popular and has a diverse membership.
 
-6. Pricing - The pricing cards are set out clearly and are easy to read. The potential member get the info of each type without have search across the site. Linked 'Buy!' buttons would allow the user to be redirected to by a membership.
+6. Pricing - The pricing cards are set out clearly and are easy to read. The potential member gets the info of each type without have search across the site. Linked 'Buy!' buttons would allow the user to be redirected to by a membership.
 
 7. Contact Us - Simple contact form allows the user to send a general message the the gym owner by filling in the 3 required boxes and pressing submit.
 
-8. Map - The embedded Google map allows the user to locate the gym by clicking on it or if they recognise the area can see where it is.
+8. Map - The embedded Google map allows the user to locate the gym by clicking on it or if they recognise the area can see where it is. This also allows for it to be clicked and open a new page in google maps.
 
 9. Social - The social media accounts the gym has are linked here, the user can easily identify the social platform by the logo and click to be redirected.
 
@@ -96,10 +96,11 @@ The following devices were tested and no errors found;
 - Google Pixel 2 & 2 XL
 - iPhone 6/7/8 Plus
 
-### Known Display Issues
+### Known Issues
 
 - Internet Explorer not aligning pricing card-deck correctly. 
 - iPhone 10x displaying a white line on the right side of all content.
+- Buy buttons do not link anywhere. 
 
 ## Validators 
 
@@ -109,11 +110,6 @@ The following devices were tested and no errors found;
 ### W3C CSS Validator 
 - No errors or warnings were found on style.css
 - Bootstrap warnings were flagged but can be disregarded. 
-
-## Issues
-
-- Internet Explorer not aligning pricing card-deck correctly. 
-- iPhone 10x displaying a white line on the right side of all content.
 
 ## Testing Scenarios
 
@@ -144,9 +140,9 @@ The following scenarios were manually tested;
     5. New page opens with google maps.
 
 5. Social Links:
-    1.Navigate to social links.
-    2.Click indvidual links to each platform.
-    3.Sites open on new pages.
+    1. Navigate to social links.
+    2. Click indvidual links to each platform.
+    3. Sites open on new pages.
 
 No automated testing was done.
 
