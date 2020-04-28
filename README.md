@@ -164,6 +164,6 @@ This project was deployed using GitHub pages can found [here](https://stevepilch
 
 ### Acknowledgements
 
-- I received inspiration for this project from [pintrest](https://www.pinterest.co.uk/pilchy1983/developer-ideas/). 
+- I received inspiration for this project from [Pinterest](https://www.pinterest.co.uk/pilchy1983/developer-ideas/). 
 - Code debugging help from my mentor Adegbenga Adeye
 - Youtube tutorial on parallax image effect from [iEatWebsites](https://www.youtube.com/watch?v=d34GsFz-HkY)
