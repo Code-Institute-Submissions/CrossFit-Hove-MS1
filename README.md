@@ -1,4 +1,4 @@
-# CrossFit Hove Gym Static Website
+# CrossFit Hove - Static Website Project
 
 This project was created for my Milestone 1 project for the Code Institute's Full Stack Dev course. 
 
@@ -49,30 +49,21 @@ The linked file to the wireframe mockup of the website.
 
 ## Features
 
-# Nav Bar
-
-- The nav bar loacted at the top of the page is well spaced and contrasts against the black background making it easy to read. Each link jumps the user to the relevant section making all information easy to find. 
-
-# Hero Image 
-
-- The Hero image welcomes the user with a great visual of a woman lifting weights. This will landing will give the first impression 
-
-# About Us 
-
-- The about us section gives 3 paragraphs of information on the 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+|1.Nav Bar - The nav bar loacted at the top of the page is well spaced and contrasts against the black background making it easy to read. Each link clicked by the user jumps them to the relevant section. 
+|2.Hero Image - The Hero image welcomes the user with a great visual of a woman lifting weights. This will landing will give the first impression 
+|3.About CrossFit - The about us section gives 3 paragraphs of information on the what the gym is and its class structure. I've kept the text to a minimum as not to put off any people browsing with and large blocks of content.  
+|4.Embedded Video - The embedded video from YouTube of the Crossfit Games athletes with motivational music. I've used this video as a sales pitch to elite fitness. Something the CrossFit brand aims for. Video is embedded so the user stays on the site.
+|5.Gallery - The gallery section provides a good selection of photos with gym members working out. This showcases that the gym is popular and has a diverse membership.
+|6.Pricing - The pricing cards are set out clearly and are easy to read. The potential member get the info of each type without have search across the site. Linked 'Buy!' buttons would allow the user to be redirected to by a membership. 
+|7.Contact Us - Simple contact form allows the user to send a general message the the gym owner by filling in the 3 required boxes and pressing submit.
+|8.Map - The embedded Google map allows the user to locate the gym by clicking on it or if they recognise the area can see where it is.
+|9.Social - The social media accounts the gym has are linked here, the user can easily identify the social platform by the logo and click to be redirected.
 
 ### Features Left to Implement
-- Another feature idea
+- Replacing the gallery with an Instagram feed allowing the content to be up to date. | This would require more understanding of Javascript.
+- Embedded booking system would give more functionality to members. | This would require more understanding of Javascript.
+
 
 ## Technologies Used
 
@@ -97,6 +88,11 @@ The following devices were tested and no errors found;
 - Google Pixel 2 & 2 XL
 - iPhone 6/7/8 Plus
 
+### Known Display Issues
+
+- Internet Explorer not aligning pricing card-deck correctly. 
+- iPhone 10x displaying a white line on the right side of all content.
+
 ## Validators 
 
 ### W3C Markup Validator 
@@ -104,57 +100,67 @@ The following devices were tested and no errors found;
 
 ### W3C CSS Validator 
 - No errors or warnings were found on style.css
-- bootstrap warnings were flagged but can be disregarded. 
+- Bootstrap warnings were flagged but can be disregarded. 
 
+## Issues
 
-##Issues
+- Internet Explorer not aligning pricing card-deck correctly. 
+- iPhone 10x displaying a white line on the right side of all content.
 
-- Internet Explorer not aligning pricing card-deck correctly 
-- Internet 
+## Testing Scenarios
 
+The following scenarios were manually tested;
 
+1. NavBar:
+    1. Click relevant link to required section.
+    2. User is taken to that section.
+    
+2. Video:
+    1. Navigate to the video. 
+    2. Click play button.
+    3. Video plays. 
+    4. Use embedded controls pause, skip, volume. 
+    5. All buttons work accordingly.
 
-
-
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
+3. Contact Us:
+    1. Attempt to submit without filling in content.
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+4. Map:
+    1. Navigate to map section. 
+    2. Manipulate map controls.
+    3. Controls work as expected.
+    4. Click link for larger map.
+    5. New page opens with google maps.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+5. Social Links:
+    1.Navigate to social links.
+    2.Click indvidual links to each platform.
+    3.Sites open on new pages.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+No automated testing was done.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+This project was deployed using GitHub pages can found [here] (https://stevepilcher.github.io/CrossFit-Hove-MS1/). This version was off of the master branch, there are no differences between the deployed and deployment versions. 
 
 ## Credits
+- Fonts taken from [Google Fonts](https://fonts.google.com) and [DaFont](https://www.dafont.com/gloss-and-bloom.font).
+- Map from [Google](https://www.google.co.uk/maps/)
+- Icons from [FontAwesome] (https://fontawesome.com/)
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
+- Video taken from [Youtube](https://www.youtube.com)
+- About us content taken from [Crossfit](https://www.crossfit.com/) & [Wikipedia] (https://en.wikipedia.org/wiki/CrossFit) webites.
 ### Media
-- The photos used in this site were obtained from ...
+- Hero Images for both full and mobile by Hipcravo on [Unsplash](https://unsplash.com) 
+- Gallery photos used with permission from CrossFit Hove 
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from [pintrest](https://www.pinterest.co.uk/pilchy1983/developer-ideas/). 
+- Code debugging help from my mentor Adegbenga Adeye
+- Youtube tutorial on parallax image effect from [iEatWebsites](https://www.youtube.com/watch?v=d34GsFz-HkY)
+-    
