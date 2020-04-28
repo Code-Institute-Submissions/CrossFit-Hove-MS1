@@ -4,9 +4,6 @@ This project was created for my Milestone 1 project for the Code Institute's Ful
 
 I chose to make this site for the local CrossFit gym I use. The gym's existing site lacks content for existing members and potential new clients. The site I have designed is one page and encorporates the overview of the gym, it's ethos, motivational videos, a gallery of members, contact, location and social feeds.
 
-I've added nav functionality to link the booking site for existing members and purchasing memberships for new clients. This gives both sides of the target audience usability. 
-
-
 ## UX
  
 The user experience was designed to predominantly attract new members to the gym but provide some functionality to existing members. It is a one page website so the user only has to scroll down to be lead through the content. The layout is logical and answers questions as you scroll down. This starts with what classes the gym provides, with a motivational video, followed by a gallery of members. The gallery showcases a broad range of photos of different sexes and ages to be all inclusive and show the membership is diverse. This project achieves it's goal by giving all the information and ability for new members to sign up. It also provides content (social and booking links) for existing members. 
