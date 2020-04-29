@@ -157,7 +157,7 @@ This project was deployed using GitHub pages can found [here](https://stevepilch
 - Fonts taken from [Google Fonts](https://fonts.google.com) and [DaFont](https://www.dafont.com/gloss-and-bloom.font).
 - Map from [Google](https://www.google.co.uk/maps/)
 - Icons from [FontAwesome](https://fontawesome.com/)
-- Responsive layout checked on [Responsive Design]http://ami.responsivedesign.is/
+- Responsive layout checked on [Responsive Design](http://ami.responsivedesign.is/)
 
 ### Content
 - Video taken from [Youtube](https://www.youtube.com)
@@ -172,4 +172,4 @@ This project was deployed using GitHub pages can found [here](https://stevepilch
 - I received inspiration for this project from [Pinterest](https://www.pinterest.co.uk/pilchy1983/developer-ideas/). 
 - Code debugging help from my mentor Adegbenga Adeye
 - Youtube tutorial on parallax image effect from [iEatWebsites](https://www.youtube.com/watch?v=d34GsFz-HkY)
-- I used this information to help format my iframes [Ben Marshall]https://benmarshall.me/responsive-iframes/
+- I used this information to help format my iframes [Ben Marshall](https://benmarshall.me/responsive-iframes/)
