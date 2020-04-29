@@ -29,50 +29,20 @@ header {
     background-color:#000 ;
     height:70px;
 }
-
-.menu-heading-left {
-    display: inline-block;
-    height: 65px;
-    width: 40%;
-    padding-right: 0px;
-    padding-top: 15px;
-    padding-bottom: 5px;
+.menu-heading {
+    padding-top:20px;
+    padding-left: 30px;
+    
 }
-.menu-heading-left ul {
+
+.menu-heading ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-#nav-left {
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-bottom: 20px;
-}
-
-
-.menu-heading-right {
-    display: inline-block;
-    height: 65px;
-    width:30%;
-    padding-left: 0px;
-    padding-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 5px;
-}
-#nav-right {
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 15px;
-}
-.menu-heading-right ul {
-    display: flex;
-    justify-content: space-between;
-}
-
 
 .logo-header {
-    width: 20%;
-    text-align: center;
+    width: 10%;
+    text-align: left;
     padding-top: 2px;
 }
 
@@ -89,11 +59,8 @@ header {
     color: #fafafa;
     font-size: 20px;
     padding-top: 30px;
-    padding-left: 10px;
 }
-#calendar {
-    color: #fafafa;
-}
+
 
 /*---------------------------------------Hero Image*/
 .hero-image-box {
@@ -270,10 +237,15 @@ header {
     color: #fff;
 
 }
+#Contact-Map button {
+    margin-left: 15px;
+}
+
 .form-column form {
     background-image: url(../images/gym11.jpg);
     background-size: cover;
     height:425px;
+    padding: 10px;
     margin-right:10px;
     margin-left: 10px;
 }
@@ -333,11 +305,14 @@ footer {
 
 @media screen and (max-width: 768px) {
 
-.menu-heading-col {
-   width: 100%;
+.header-bar {
+    height: 50px;
+}
+
+.menu-heading {
+   width: 80%;
     text-align: left;
     padding-top: 10px;
-    margin-left: 15px;
 }
 .logo-header img {
     width: 100%;
@@ -345,18 +320,23 @@ footer {
 #logo-header {
     max-width: 90px;
     padding-top: 5px;
+}
+.menu-heading ul {
+    display: flex;
+    justify-content: space-between;
+    padding-right:5px;
+}
 
+
+.list-inline>li a {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    font-size: 11px;
 }
-.menu-heading-calendar {
-    width:40%;
-    padding-top: 18px;
-    text-align: right;
-    
-}
-.menu-heading-calendar img {
-    max-height:50px;
-    max-width: 35px;
-}
+
+
+
 .hero-image-box {
     background-image: url(../images/hero-image-mob.jpg);
     background-size: cover;
@@ -410,7 +390,7 @@ footer {
     
 }
 .form-column form {
-    height: 550px;
+    height: 500px;
 }
 
 #map {

@@ -21,14 +21,7 @@
     <!--Header and Navbar-->
     <header>
       <div class="row no-gutters header-bar">
-        <div class="col-lg-5 d-none d-sm-none d-md-none d-lg-block menu-heading-left">
-          <ul id="nav-left" class="list-inline">
-            <li class="navitem"><a href="#about-workouts">About Us</a></li>
-            <li class="navitem"><a href="#gallery-section">Gallery</a></li>
-            <li class="navitem"><a href="#pricing">Pricing</a></li>
-          </ul>
-        </div>
-        <div class="col-xs-6 col-md-2 menu-heading-col logo-header">
+        <div class="col-1 logo-header">
           <a class="logo"
             ><img
               src="assets/images/CFH-white-logo.png"
@@ -36,8 +29,11 @@
               alt="barbell"
           /></a>
         </div>
-        <div class="col-lg-5 d-none d-sm-none d-md-none d-lg-block menu-heading-right">
-          <ul id="nav-right" class="list-inline">
+        <div class="col-11 menu-heading">
+          <ul id="nav" class="list-inline">
+            <li class="navitem"><a href="#about-workouts">About Us</a></li>
+            <li class="navitem"><a href="#gallery-section">Gallery</a></li>
+            <li class="navitem"><a href="#pricing">Pricing</a></li>
             <li class="list-inline-item menuitem">
               <a href="#socialicons">Social</a>
             </li>
@@ -53,20 +49,7 @@
             </li>
           </ul>
         </div>
-        <div
-            class="col-xs-6 d-block d-lg none menu-heading-calendar logo-header"
-          >
-            <a
-              href="https://goteamup.com/p/41640-crossfit-hove/#!week"
-              target="_blank"
-              ><img
-                src="assets/icons/calendar.png"
-                id="timetable"
-                alt="blackwhite barbell"
-            /></a>
-          </div>
       </div>
-
     </header>
     <!--Hero Image-->
     <div class="container-fluid">
@@ -282,9 +265,13 @@
                 class="form-control"
                 id="inputMessage3"
                 required
-              /><br />
+              />
             </div>
-            <button type="submit" class="btn btn-dark">Submit</button>
+          </div>
+          <div class="form-group row">
+            <div>
+              <button type="submit" class="btn btn-dark">Submit</button>
+            </div>
           </div>
         </form>
       </div>
@@ -331,6 +318,12 @@
               <a target="_blank" href="https://www.youtube.com">
                 <i class="fab fa-youtube-square" aria-hidden="true"></i>
                 <span class="sr-only">YouTube</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://goo.gl/maps/JgyjGjYbqHP62YBz8">
+                <i class="fas fa-map" aria-hidden="true"></i>
+                <span class="sr-only">Google Maps</span>
               </a>
             </li>
           </ul>

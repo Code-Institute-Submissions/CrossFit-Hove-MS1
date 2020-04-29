@@ -1,5 +1,7 @@
 # CrossFit Hove - Static Website Project
 
+![alt text](https://github.com/StevePilcher/CrossFit-Hove-MS1/blob/master/assets/files/Layout-sizes.jpg)
+
 This project was created for my Milestone 1 project for the Code Institute's Full Stack Dev course. 
 
 I chose to make this site for the local CrossFit gym I use. The gym's existing site lacks content for existing members and potential new clients. The site I have designed is one page and encorporates the overview of the gym, it's ethos, motivational videos, a gallery of members, contact, location and social feeds.
@@ -61,7 +63,7 @@ The linked file to the wireframe mockup of the website.
 
 7. Contact Us - Simple contact form allows the user to send a general message the the gym owner by filling in the 3 required boxes and pressing submit.
 
-8. Map - The embedded Google map allows the user to locate the gym by clicking on it or if they recognise the area can see where it is. This also allows for it to be clicked and open a new page in google maps.
+8. Map - The embedded Google map allows the user to locate the gym by clicking on it or if they recognise the area can see where it is. This also allows for it to be clicked and open a new page in google maps. The map is hidden in mobile view for UX styling. A map icon is located in the footer also. 
 
 9. Social - The social media accounts the gym has are linked here, the user can easily identify the social platform by the logo and click to be redirected.
 
@@ -105,7 +107,8 @@ The following devices were tested and no errors found;
 ## Validators 
 
 ### W3C Markup Validator 
-- No errors or warnings were found on index.html
+- No errors were found on index.html
+- Warnings were flagged with iFrame properties but can be ignored.
 
 ### W3C CSS Validator 
 - No errors or warnings were found on style.css
@@ -154,10 +157,12 @@ This project was deployed using GitHub pages can found [here](https://stevepilch
 - Fonts taken from [Google Fonts](https://fonts.google.com) and [DaFont](https://www.dafont.com/gloss-and-bloom.font).
 - Map from [Google](https://www.google.co.uk/maps/)
 - Icons from [FontAwesome](https://fontawesome.com/)
+- Responsive layout checked on [Responsive Design]http://ami.responsivedesign.is/
 
 ### Content
 - Video taken from [Youtube](https://www.youtube.com)
 - About us content taken from [Crossfit](https://www.crossfit.com/) & [Wikipedia](https://en.wikipedia.org/wiki/CrossFit) webites.
+
 ### Media
 - Hero Images for both full and mobile by Hipcravo on [Unsplash](https://unsplash.com) 
 - Gallery photos used with permission from CrossFit Hove 
@@ -167,3 +172,4 @@ This project was deployed using GitHub pages can found [here](https://stevepilch
 - I received inspiration for this project from [Pinterest](https://www.pinterest.co.uk/pilchy1983/developer-ideas/). 
 - Code debugging help from my mentor Adegbenga Adeye
 - Youtube tutorial on parallax image effect from [iEatWebsites](https://www.youtube.com/watch?v=d34GsFz-HkY)
+- I used this information to help format my iframes [Ben Marshall]https://benmarshall.me/responsive-iframes/
