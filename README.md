@@ -96,12 +96,13 @@ The following devices were tested and no errors found;
 - Samsung Galaxy S10 Plus
 - iPhone 
 - Google Pixel 2 & 2 XL
-- iPhone 6/7/8 Plus
+- iPhone 6/7/8 Plus and iPhone X
+- iPad & iPad Pro 
 
 ### Known Issues
 
 - Internet Explorer not aligning pricing card-deck correctly. 
-- iPhone 10x displaying a white line on the right side of all content.
+
 - Buy buttons do not link anywhere. 
 
 ## Validators 
